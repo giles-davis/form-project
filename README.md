@@ -1,4 +1,4 @@
-<h1>Sign-Up For Project</h1> 
+<h1>Sign-Up Form Project</h1> 
 
 <h2>The Odin Project</h2>
 
