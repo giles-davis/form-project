@@ -7,17 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Splash Section -->
+
     <div class="background-container">
         <img src="waterfall.jpg" alt="waterfall">
         <div class="logo-container">  
             <img src="odin-lined.png" alt="odin">   
-            <p id="norse">ODIN</p>    
+            <p id="norse">ODIN</p>   
+        </div>
+        <div class="img-credit">
+            <p id="img-cred1">Photo by</p> 
+            <a href="https://unsplash.com/s/photos/Muhammad-Agung-Rahayu" id="img-cred2">Muhammad Agung Rahayu</a>
+            <p id="img-cred3">on</p>
+            <a href="https://unsplash.com/" id="img-cred4">Unsplash</a>
         </div>
     </div>
 
-             
+    <!-- Form Section -->
+
     <div class="text-container">
-        <p><strong>This is not a real online service! You know you need something <br>
+        <p id="main-text"><strong>This is not a real online service! You know you need something <br>
             like this in your life to help you realise your dreams. <br>
             Sign up <em>now</em> to get started. <br>
             <br>
@@ -48,16 +58,24 @@
                 </li>
                 <li>
                     <label for="pass">PASSWORD</label>
-                    <input type="text" id="pass" name="pass">
+                    <input type="password" id="pass" name="pass">
                 </li>
                 <li>
                     <label for="passcon">CONFIRM PASSWORD</label>
-                    <input type="text" id="passcon" name="passcon">
+                    <input type="password" id="passcon" name="passcon">
                 </li>
             </ul>
         </fieldset>
     </form>
     
-    <button type="submit">Create Account</button>
+    <!-- Submit Section -->
+
+    <div class="submitsection">
+        <button type="submit"><strong>Create Account</strong></button>
+        <div class="login-text">
+            <p id="foot"><strong>Already have an account?</strong></p>
+            <p id="log-in"><strong></strong>Log in</strong></p>
+        </div>
+    </div>
 </body>
 </html>

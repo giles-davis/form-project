@@ -83,6 +83,8 @@ body {
     background-color: whitesmoke;
 }
 
+/* Splash Section */
+
 .background-container {
   position: fixed;
   top: 0;
@@ -112,8 +114,8 @@ body {
 }
 
 .logo-container img {
-  width: auto;  /* Changed from height */
-  height: 125px;  /* Specific height */
+  width: auto;  
+  height: 125px; 
   padding: 10px;
   object-fit: contain;  
   max-width: none; 
@@ -126,6 +128,43 @@ body {
   margin-left: -0.5rem;
   margin-top: 20px;
 }
+
+.img-credit {
+  position: relative;  
+  bottom: 25px;
+  width: 100%;  
+  z-index: 1;
+  gap: 2px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+#img-cred1 {
+  font-family: 'aileronregular', sans-serif;
+  color: white;
+  font-size: 8pt;
+}
+
+#img-cred2 {
+  font-family: 'aileronregular', sans-serif;
+  color: white;
+  font-size: 8pt;
+}
+
+#img-cred3 {
+  font-family: 'aileronregular', sans-serif;
+  color: white;
+  font-size: 8pt;
+}
+
+#img-cred4 {
+  font-family: 'aileronregular', sans-serif;
+  color: white;
+  font-size: 8pt;
+}
+
+/* Text Section */
 
 .text-container {
   position: fixed;
@@ -154,7 +193,7 @@ form {
   display: flex;
   padding: 40px;  
   background-color: white;
-  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.1); 
+  box-shadow: 2px 10px 10px -5px rgba(0, 0, 0, 0.1); 
   position: relative;
   margin-top: -2em;
 }
@@ -193,8 +232,40 @@ input {
   font-family: sans-serif;
   width: 250px;
   box-sizing: border-box;
-  border: 1px solid #999;
+  border: 1px solid #E5E7EB;
   border-radius: 4px;
+  padding: 3px 7px;
+}
+
+input:focus {
+  outline: none; 
+  border: 1px solid #4A90E2;
+  box-shadow: 2px 2px 4px rgba(89, 109, 72, 0.2); 
+}
+
+input:invalid {
+  border-color: #FF6B6B; 
+}
+
+input[type="password"]:focus {
+  border-color: #FF6B6B;  
+}
+
+input:hover {
+  border-color: #4A90E2;
+}
+
+/* Submit Section */
+
+.submitsection {
+  margin-top: 5px;
+}
+
+.login-text {
+  display: flex;
+  gap: 5px;
+  margin-top: 25px;
+  align-items: center;
 }
 
 button {
@@ -208,4 +279,17 @@ button {
   border-radius: 5px;
   border: 0px;
   box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3); 
+}
+
+#foot {
+  font-family: 'aileronregular', sans-serif;
+  font-size: 10pt;
+}
+
+#log-in {
+  font-family: 'aileronbold', sans-serif;
+  font-size: 10pt;
+  font-weight: 1000;
+  color: #596D48;
+  margin: 0;
 }
